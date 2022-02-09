@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang = "en">
+
+<head>
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+    <link rel = "stylesheet" href = "{% static 'posts/master.css' %}" >
+</head>
+        <div class = "top-nav">
+            <div class= "navbar-brand-position">
+                <a href = "{% url 'posts:home' %}" class = "navbar-brand" >Sherbert Capital</a>
+            </div>
+        </div>
+
+    <body>
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,81 @@
+.top-nav{
+    text-align-last: center;
+}
+
+.navbar-brand-position{
+    padding: 10px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    text-align: center;
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    color: #414b56;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.secondary-position{
+    text-align-last: center;
+    padding-bottom: 10px;
+}
+
+.secondary-links{
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    color: #414b56;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    padding: 10px; 
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: utopia-std;
+    color: #414b56;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: utopia-std;
+    color: #414b56;
+    font-style: normal;
+    font-weight: normal;
+}
+
+  /* unvisited link */
+  a.navbar-brand:link {
+    color: #414b56;
+    font-size: 30px;
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a.navbar-brand:visited {
+    color: #414b56;
+    font-size: 30px;
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a.navbar-brand:hover {
+    color: #414b56;
+    font-size: 30px;
+    font-weight: normal;
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a.navbar-brand:active {
+    color: #414b56;
+    font-size: 30px;
+    font-family: proxima-nova,helvetica,verdana,sans-serif;
+    text-decoration: none;
+  }
