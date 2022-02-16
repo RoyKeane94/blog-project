@@ -12,13 +12,13 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os #added by TB
-import environ #added by TB
+#import environ #added by TB
 
 #added by TB
-env = environ.Env(
+#env = environ.Env(
     # set casting, default value
-    DEBUG=(bool, False)
-)
+#    DEBUG=(bool, False)
+#)
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
