@@ -12,13 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os #added by TB
-#import environ #added by TB
 
-#added by TB
-#env = environ.Env(
-    # set casting, default value
-#    DEBUG=(bool, False)
-#)
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -29,12 +23,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9+94u13g)hsvzj*ezud4c#!pe2c!*!yi77l!zk$5&!r)#&bhw!'
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False #TB Change
 
-ALLOWED_HOSTS = ['127.0.0.1','stherbert-blog.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','sherbert-blog.herokuapp.com']
 
 
 # Application definition
