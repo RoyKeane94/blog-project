@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os #added by TB
+from decouple import config
 
 
 
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9+94u13g)hsvzj*ezud4c#!pe2c!*!yi77l!zk$5&!r)#&bhw!'
+SECRET_KEY = config("SECRET KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True #TB Change
