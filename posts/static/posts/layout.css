@@ -40,11 +40,18 @@ h1 {
 
 h2 {
     font-size: 25px;
-    text-align: center;
     font-family: utopia-std;
     color: #414b56;
     font-style: normal;
     font-weight: normal;
+}
+
+.writing-text {
+  font-size: 15px;
+  font-family: utopia-std;
+  color: #414b56;
+  font-style: normal;
+  font-weight: normal;
 }
 
   /* unvisited link */
