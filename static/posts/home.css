@@ -21,3 +21,24 @@
     font-style: normal;
     font-weight: normal;
 }
+
+/* unvisited link */
+a.blog-title-link:link {
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a.blog-title-link:visited {
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a.blog-title-link:hover {
+    font-style: bold;
+    text-decoration: bold;
+  }
+  
+  /* selected link */
+  a.blog-title-link:active {
+    text-decoration: none;
+  }

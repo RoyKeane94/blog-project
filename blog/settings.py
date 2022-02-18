@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY', env('SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True #TB Change
+DEBUG = False #TB Change
 
 ALLOWED_HOSTS = ['127.0.0.1','sherbert-blog.herokuapp.com']
 
