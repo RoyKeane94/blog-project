@@ -1,0 +1,44 @@
+.item-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+.blog-overview {
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blog-summary {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-family: utopia-std;
+    color: #414b56;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* unvisited link */
+a.blog-title-link:link {
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a.blog-title-link:visited {
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a.blog-title-link:hover {
+    font-style: bold;
+    text-decoration: bold;
+  }
+  
+  /* selected link */
+  a.blog-title-link:active {
+    text-decoration: none;
+  }
