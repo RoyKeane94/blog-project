@@ -1,18 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
+{% extends "posts/layout.html" %} 
 
-<html lang = "en">
-
-<head>
-<title>
+{% block title %}
         {{individual_post.title}}
-</title>>
-<link rel = "stylesheet" href = "{% static 'posts/master.css' %}" >
-</head>
+{% endblock %}
 
-<body>
+{% block body %}
     <h1>{{individual_post.title}}</h1>
     {{individual_post.body}}
-</body>
-
-</html>
+{% endblock %}
